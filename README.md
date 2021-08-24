@@ -1,6 +1,6 @@
 # reproduce-haproxy-websocket-issue
 
-This repository provides easy way to reproduce issue on haproxy 2.4.3 with not working websockets when bacend has enabled communication over http/2.
+This repository provides an easy way to reproduce issue on haproxy 2.4.3 with not working websockets when the backend has enabled communication over http/2.
 
 ## Prerequisites
 
