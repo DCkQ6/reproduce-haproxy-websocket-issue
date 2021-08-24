@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  haproxy:
+    build: haproxy
+    ports:
+      - "8443:8443"
+      - "8444:8444"
+  backend:
+    build: backend
+  websockets:
+    build: websockets
+    stop_signal: SIGINT
