@@ -13,4 +13,4 @@ This repository provides an easy way to reproduce issue on haproxy 2.4.3 with no
 docker-compose up --build
 ```
 
-then check https://localhost:8443/test.html to observe failure and https://localhost:8444/test.html that should print timestamps in random delays as expected.
+then check https://localhost:8443/test.html to observe failure and https://localhost:8444/test.html that should print timestamps in random delays as expected. Also https://localhost:9443/test.html is exposed to show that without haproxy everything works as intended.
